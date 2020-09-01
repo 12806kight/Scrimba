@@ -3,7 +3,7 @@ const entriesSection = document.querySelector('#entries');
 const entryTextbox = document.querySelector('.entry-textbox');
 const entriesNav = document.querySelector('.entries-nav');
 
-let count = 1;
+let count = 2;
 function addEntryToDom(event) {
     event.preventDefault();
     const entryDiv = document.createElement('div');
